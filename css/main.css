@@ -1,0 +1,99 @@
+/**
+ * General
+ */
+.content {
+    margin-top: 55px;
+}
+.slide {
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background-color: white;
+    position: relative;
+}
+a {
+    color: white !important;
+}
+
+/**
+ * Nav
+ */
+.hamburger {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+.hamburger:active, .hamburger:focus {
+    border-color: white;
+}
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+/**
+ * Home
+ */
+#landing {
+    background: url('../images/original.jpg') no-repeat center center;
+    position: fixed;
+}
+.title {
+    text-align: center;
+    padding-top: 40vh;
+    color: white;
+}
+
+/**
+ * Resume
+ */
+.resume-slide {
+    margin-top: 100vh;
+}
+
+/**
+ * Projects
+ */
+
+/**
+ * Contact
+ */
+.contact {
+    background-color: #343a40;
+    position: relative;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+/**
+ * Media
+ */
+@media (min-width: 700px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .nav-item {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1500px) {
+    #landing {
+        background-size: 100% 100%;
+    }
+}
+@media (min-width: 1800px) {
+    #landing {
+        background-image: none;
+        background-color: #c0392b;
+    }
+}
