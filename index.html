@@ -6,10 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
-<body data-spy="scroll" data-target="#navbar" data-offset="50">
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
     <nav id="navbar" class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Derek Harmann</a>
@@ -25,15 +26,15 @@
             <div id="navbarItems">
                 <ul class="nav nav-pills pull-right">
                     <li class="nav-item">
-                        <a class="nav-link" href="#landing">Landing</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#resume">Resume</a>
+                        <a class="nav-link" href="#profile">Profile</a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
 
                     <li class="nav-item">
@@ -48,28 +49,56 @@
         <div id="landing" class="container-fluid slide">
             <div class="row">
                 <div class="title col-md-12">
-                    <h1>Derek Harmann - Full Stack Developer</h1>
+                    <h1>Derek Harmann</h1>
+                    <h1>Full Stack Developer</h1>
                 </div>
             </div>
         </div>
 
-        <div id="resume" class="container-fluid slide resume-slide">
+        <div id="profile" class="container-fluid slide first-slide white-slide">
             <div class="row">
                 <div class="col-md-12">
-                    Hi, I'm Derek, a Full Stack Python Developer. I recently worked on a a map application featuring highlighted locations with third-party data and modeled in KnockoutJS to create a responsive and accelerated web page. I'd love to use my self-driven attitude and computer science background to develop optimized full stack solutions.
+                    <h2>Profile</h2>
                 </div>
             </div>
 
-            <div class="row skills">
+            <div class="row">
                 <div class="col-md-12">
-                    Languages: Python, JavaScript, PostgreSQL, HTML5, CSS3, Java, C#, MySQL
-                    Frameworks/Libraries: jQuery, KnockoutJS, Flask, Bootstrap, SQLAlchemy
-                    Other: Git, Agile, Google App Engine, AWS, VirtualBox, Vagrant
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Summary</h3>
+                    <p>Hi, I'm Derek, a Full Stack Python Developer. I recently worked on setting up and configuring a secure Linux server through AWS that utilizes Apache. The app is a catalog leveraging Python, PostgreSQL, RESTful design, and JSON endpoints.  I'd love to use my self-driven attitude and computer science background to develop optimized full stack solutions.</p>
+                </div>
+
+                <div class="col-md-4 profile-pic">
+                    <img src="images/profile.jpg" alt="Derek Harmann portrait">
+                </div>
+
+                <div class="col-md-4">
+                    <h3>About</h3>
+                    <strong>Name: </strong>
+                    <p>Derek Harmann</p>
+                    <strong>Career: </strong>
+                    <p>Full Stack Developer</p>
+                    <strong>Location: </strong>
+                    <p>Green Bay, WI</p>
+                    <a href="https://github.com/harmannd" class="btn btn-info" role="button"><i class="fa fa-github"></i> Github</a>
+                    <a href="https://www.linkedin.com/in/derekharmann" class="btn btn-info" role="button"><i class="fa fa-linkedin"></i> LinkedIn</a>
                 </div>
             </div>
         </div>
 
-        <div id="projects" class="container-fluid slide">
+        <div id="projects" class="container-fluid slide grey-slide">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Projects</h2>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="col-md-6">
                     Linux Server Configuration - https://github.com/harmannd/ubuntuCatalog
@@ -95,13 +124,48 @@
             </div>
         </div>
 
-        <div id="contact" class="container-fluid contact">
+        <div id="skills" class="container-fluid slide white-slide">
             <div class="row">
                 <div class="col-md-12">
-                    Contact stuff
-
+                    <h2>Skills</h2>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    Languages: Python, JavaScript, PostgreSQL, HTML5, CSS3, Java, C#, MySQL
+                    Frameworks/Libraries: jQuery, KnockoutJS, Flask, Bootstrap, SQLAlchemy
+                    Other: Git, Agile, Google App Engine, AWS, VirtualBox, Vagrant
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="container-fluid contact slide">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://github.com/harmannd" class="btn btn-info" role="button"><i class="fa fa-github fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/derekharmann" class="btn btn-info" role="button"><i class="fa fa-linkedin fa-2x"></i></a>
+                </div>
+            </div>
+
         </div>
     </div>
 
