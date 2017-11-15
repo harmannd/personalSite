@@ -94,6 +94,10 @@ h3 {
 /**
  * Projects
  */
+.card {
+    margin-bottom: 20px;
+    height: 650px;
+}
 
 /**
  * Contact
