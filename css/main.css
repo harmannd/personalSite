@@ -95,8 +95,10 @@ h3 {
  * Projects
  */
 .card {
+    height: 100%;
+}
+.card-boundary {
     margin-bottom: 20px;
-    height: 650px;
 }
 
 /**
@@ -112,12 +114,12 @@ h3 {
 .contact {
     background-color: #343a40;
     position: relative;
-    height: 300px;
-    color: white;
-    text-align: center;
+    height: 400px;
+    color: #bdc3c7;
 }
 .contact h2 {
     color: #bdc3c7;
+    text-align: center;
 }
 .contact hr {
     background-color: #bdc3c7;

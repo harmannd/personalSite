@@ -1,4 +1,5 @@
 const app = (function() {
+    //Fix nav on small devices
     if ($(window).width() < 700) {
         $('#navbarItems').addClass('collapse navbar-collapse');
     }
@@ -7,7 +8,7 @@ const app = (function() {
     }
 
     return {
-        hamburger: function() {
+        nav: function() {
             if ($(window).width() < 700) {
                 $('#navbarItems').addClass('collapse navbar-collapse');
             }
@@ -22,5 +23,5 @@ const app = (function() {
 
 
 $(window).resize(function() {
-    app.hamburger();
+    app.nav();
 });
